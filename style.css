@@ -71,3 +71,28 @@
   font-family: "libre baskerville";
   color: blueviolet;
 }
+
+/*Servicios*/
+.bg-servicios {
+  background-color: blanchedalmond;
+}
+
+.h1-servicios {
+  font-family: "libre baskerville", sans-serif;
+}
+
+.p-servicios {
+  font-family: "trispace", sans-serif;
+}
+
+.h2-ubicacion {
+  background: black;
+  font-family: "libre baskerville", sans-serif;
+}
+
+.iframe-servicios {
+  max-width: 100%;
+}
+.ubicacion-color {
+  background-color: black;
+}

@@ -96,3 +96,8 @@
 .ubicacion-color {
   background-color: black;
 }
+
+/*menú*/
+.nav-list {
+  list-style: none;
+}

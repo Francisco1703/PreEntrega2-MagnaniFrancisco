@@ -1,0 +1,41 @@
+.color {
+  background-color: darkkhaki;
+}
+
+.border-color {
+  background-color: darkkhaki;
+}
+
+/*hero image - index*/
+.background-image {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url(imagenes/fuegos\ artificiales.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  padding: 0;
+  background-repeat: no-repeat;
+}
+
+.h1__hero {
+  font-family: "libre baskerville", sans-serif;
+  font-size: 260%;
+  padding-bottom: 15px;
+}
+
+.p__hero {
+  font-family: "fuzzy bubbles", sans-serif;
+  font-size: 130%;
+  color: aliceblue;
+}
+
+.p__hero:hover {
+  color: aquamarine;
+}
+
+/*footer*/
+
+.color__nav-footer {
+  background-color: rgb(156, 152, 98);
+}

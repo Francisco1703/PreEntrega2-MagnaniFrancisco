@@ -39,3 +39,35 @@
 .color__nav-footer {
   background-color: rgb(156, 152, 98);
 }
+
+/*nosotros*/
+
+.nosotros__h1 {
+  font-family: "libre baskerville", sans-serif;
+}
+
+.bg__nosotros {
+  background-color: rgb(241, 217, 185);
+}
+
+.nosotros-font {
+  font-family: "libre baskerville";
+  line-height: 180%;
+}
+
+.bg-cards {
+  background-color: rgb(131, 78, 182);
+}
+
+.h3-cards {
+  font-family: "libre baskerville", sans-serif;
+}
+
+.p-cards {
+  font-family: "trispace", sans-serif;
+}
+
+.h1-integrantes {
+  font-family: "libre baskerville";
+  color: blueviolet;
+}

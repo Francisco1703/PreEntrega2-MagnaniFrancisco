@@ -138,3 +138,17 @@
   cursor: pointer;
   opacity: 80%;
 }
+
+/*contacto*/
+
+.h1-contacto {
+  font-family: "libre baskerville", sans-serif;
+}
+
+.contacto-color {
+  background-color: rgba(13, 202, 240, 255);
+}
+
+.ff-contacto {
+  font-family: "libre baskerville", sans-serif;
+}

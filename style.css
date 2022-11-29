@@ -51,12 +51,18 @@
 }
 
 .bg__nosotros {
-  background-color: rgb(241, 217, 185);
+  /*background-color: rgb(241, 217, 185);*/
+  background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url(imagenes/nosotros.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .nosotros-font {
   font-family: "libre baskerville";
   line-height: 180%;
+  line-height: 200%;
 }
 
 .bg-cards {
@@ -74,6 +80,11 @@
 .h1-integrantes {
   font-family: "libre baskerville";
   color: blueviolet;
+  text-shadow: 0 0 50px blueviolet;
+}
+
+.card-img {
+  box-shadow: 0 0 60px black;
 }
 
 /*Servicios*/

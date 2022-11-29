@@ -41,25 +41,33 @@
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex">
             <li class="nav-item">
               <a
-                class="nav-link text-center"
+                class="nav-link text-center nav-transform"
                 aria-current="page"
                 href="index.html"
                 >Inicio</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-center" href="nosotros.html">Nosotros</a>
+              <a class="nav-link text-center nav-transform" href="nosotros.html"
+                >Nosotros</a
+              >
             </li>
             <li class="nav-item">
-              <a href="servicios.html" class="nav-link text-center"
+              <a
+                href="servicios.html"
+                class="nav-link text-center nav-transform"
                 >Servicios</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-center" href="galeria.html">Galería</a>
+              <a class="nav-link text-center nav-transform" href="galeria.html"
+                >Galería</a
+              >
             </li>
             <li class="nav-item">
-              <a href="contacto.html" class="nav-link active text-center"
+              <a
+                href="contacto.html"
+                class="nav-link active text-center nav-transform"
                 >Contacto</a
               >
             </li>
@@ -67,7 +75,119 @@
         </div>
       </div>
     </nav>
-    <div class="contacto-color">
+
+    <div class="d-flex color">
+      <div class="container">
+        <div class="p-2 text-center py-4">
+          <h1 class="fs-1 text-dark h1-contacto">Contacto</h1>
+        </div>
+      </div>
+    </div>
+
+    <section class="bg-light text-center p-section">
+      <div class="color">
+        <div class="container-fluid">
+          <div
+            class="contacto-hero d-flex align-items-center justify-content-center"
+          >
+            <form action="#">
+              <div>
+                <div class="container pb-5">
+                  <div class="row g-3 p-3 justify-content-center">
+                    <div class="col-sm-5 pb-4 text-start">
+                      <label
+                        class="form-label ps-3 text-light ff-contacto"
+                        for="last name"
+                        >Nombre</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Nombre"
+                        aria-label="Nombre"
+                      />
+                    </div>
+                    <div class="col-sm-5 pb-4 text-start">
+                      <label
+                        class="form-label ps-3 text-light ff-contacto"
+                        for="last name"
+                        >Apellido</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Apellido"
+                        aria-label="Apellido"
+                      />
+                    </div>
+                    <div class="row col-sm-10 text-start">
+                      <label
+                        class="form-label ps-3 text-light ff-contacto"
+                        for="inputEmail4"
+                        >Correo Electrónico</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="inputEmail4"
+                        placeholder="Correo Electrónico"
+                        aria-label="Correo Electrónico"
+                      />
+                    </div>
+                    <div class="row col-sm-10 pt-4 text-start">
+                      <label
+                        class="form-label ps-3 text-light ff-contacto"
+                        for="consulta"
+                        >Consulta</label
+                      >
+                      <textarea
+                        name="consulta"
+                        class="form-control"
+                        cols="30"
+                        rows="10"
+                        placeholder="Consulta"
+                        aria-label="Consulta"
+                      ></textarea>
+                    </div>
+
+                    <div
+                      class="form-check d-flex justify-content-center text-center pt-4"
+                    >
+                      <input
+                        class="form-check-input pe-3 me-2"
+                        type="checkbox"
+                      />
+                      <label
+                        class="form-check-label text-light ff-contacto"
+                        for="flexCheckDefault"
+                      >
+                        Estoy satisfecho/a con la atención brindada durante mi
+                        navegación por el sitio web.
+                      </label>
+                    </div>
+                    <div class="d-flex justify-content-center gap-4 pt-3">
+                      <input type="submit" class="btn-check" id="btn-check-2" />
+                      <label
+                        class="btn btn-dark ff-contacto bg-hover"
+                        for="btn-check-2"
+                        >Enviar</label
+                      >
+                      <input type="reset" class="btn-check" id="btn-check-2" />
+                      <label
+                        class="btn btn-dark ff-contacto bg-hover"
+                        for="btn-check-2"
+                        >Reiniciar</label
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--<div class="contacto-color">
       <div class="container bg-info">
         <div class="p-2 text-center py-4">
           <h1 class="fs-1 text-light h1-contacto">Contacto</h1>
@@ -155,7 +275,7 @@
           </div>
         </div>
       </div>
-    </form>
+    </form>-->
 
     <footer class="d-flex color__nav-footer p-4">
       <div class="container d-flex justify-content-center">
